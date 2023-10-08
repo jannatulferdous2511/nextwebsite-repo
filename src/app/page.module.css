@@ -1,4 +1,4 @@
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,7 +108,7 @@
   position: relative;
 }
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -126,6 +126,7 @@
 }
 
 /* Mobile */
+/* 
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -203,6 +204,7 @@
 }
 
 /* Tablet and Smaller Desktop */
+/* 
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -226,4 +228,47 @@
   to {
     transform: rotate(0deg);
   }
+}  */
+.title {
+  font-size: 72px;
+  background: linear-gradient(to bottom, rgb(239, 219, 130), hsl(0, 4%, 80%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.desc {
+  font-size: 23px;
+  font-weight: 300;
+  color: bisque;
+}
+
+.button {
+  width: max-content;
+  padding: 20px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgb(239, 219, 130), hsl(0, 4%, 80%));
+
+  border: 2px;
+  border-radius: 10px;
 }
