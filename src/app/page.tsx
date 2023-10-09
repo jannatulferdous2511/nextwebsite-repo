@@ -26,6 +26,7 @@ export default function Home() {
           Global tech Industry
         </p>
         <button className={styles.button}>See Our Projects</button>
+        <button className={styles.button}>See Our Projects</button>
       </div>
 
       <div className={styles.item}>
