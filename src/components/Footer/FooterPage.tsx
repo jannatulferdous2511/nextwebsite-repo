@@ -4,7 +4,7 @@ import Image from "next/image";
 const FooterPage = () => {
   return (
     <div className={styles.container}>
-      <div>@2023 JANNAT JANNAT. All Rigts Reserved.</div>
+      <div>@2023 JANNAT . All Rigts Reserved.</div>
       <div className={styles.social}>
         <Image
           src="/edit size.jpg"
