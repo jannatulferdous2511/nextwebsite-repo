@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./navbar.module.css";
 
 const links = [
   {
@@ -25,7 +26,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div>
+    <div className={styles.link}>
       <Link href="/">JANNAT</Link>
       <div>
         {links.map((link) => (

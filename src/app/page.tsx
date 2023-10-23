@@ -9,14 +9,14 @@ import TestimonialPage from "./Testimonial/TestimonialPage";
 
 export default function Home() {
   return (
-    // <main className={styles.main}>
+    //  <main className={styles.main}>
     //   <div className={styles.description}>
-    /* <AboutPage />
-        <ProjectPage />
-        <TestimonialPage />
-        <ContactPage />
-      </div> */
-    // </main>
+    // <AboutPage />
+    //     <ProjectPage />
+    //     <TestimonialPage />
+    //     <ContactPage />
+    //   </div> 
+    //  </main>
 
     <div className={styles.container}>
       <div className={styles.item}>
