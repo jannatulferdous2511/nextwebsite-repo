@@ -1,0 +1,9 @@
+.container {
+  width: max-content;
+  padding: 20px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgb(239, 219, 130), hsl(0, 4%, 80%));
+
+  border: 2px;
+  border-radius: 10px;
+}

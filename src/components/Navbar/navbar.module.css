@@ -1,3 +1,36 @@
-.link {
-  background-color:rgb(12, 5, 5);
+.container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.icon {
+  padding-top: 3px;
+}
+.logoImage {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: bisque;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  border-radius: 3px;
 }

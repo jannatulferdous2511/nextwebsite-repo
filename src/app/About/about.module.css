@@ -1,0 +1,44 @@
+.container {
+  height: 900px;
+}
+.imgContainer {
+  /* height: 300px;
+  width: 100%; */
+  position: relative;
+}
+.img {
+  object-fit: cover;
+  height: 550px;
+  width: 100%;
+  /* filter:grayscale(100%) */
+}
+
+.imgText {
+  font-size: 23px;
+  font-weight: 300;
+  /* color: rgb(179, 166, 152); */
+  background: linear-gradient(to bottom, rgb(237, 206, 69), hsl(0, 11%, 75%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.textContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}

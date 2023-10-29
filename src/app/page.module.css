@@ -236,14 +236,26 @@
   -webkit-text-fill-color: transparent;
 }
 
-.img {
+.image {
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+.image {
+  object-fit: contain;
+  /* animation: move 3s infinite ease alternate; */
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(10px) ;
+  }
 }
 
 .container {
-  
   background-color: black;
   display: flex;
   align-items: center;
@@ -272,3 +284,4 @@
   border: 2px;
   border-radius: 10px;
 }
+/* .title: hsl(0, 4%, 80%); */
