@@ -19,8 +19,8 @@ const links = [
 
   {
     id: 3,
-    title: "ProjectPage",
-    url: "/ProjectPage",
+    title: "Project",
+    url: "/project",
   },
 
   { id: 4, title: "TestimonialPage", url: "/testimonialPage" },
