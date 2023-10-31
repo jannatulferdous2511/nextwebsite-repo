@@ -23,7 +23,11 @@ const links = [
     url: "/project",
   },
 
-  { id: 4, title: "TestimonialPage", url: "/testimonialPage" },
+  {
+    id: 4,
+    title: "Testimonial",
+    url: "/testimonial",
+  },
 
   { id: 5, title: "Contact", url: "/contact" },
 ];
