@@ -6,7 +6,7 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <div className={styles.mainContainer}>
-      <Link href="" className={styles.container}>
+      <Link href="/testimonial/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="/architecture2.jpg"
@@ -18,11 +18,11 @@ const Testimonial = () => {
         </div>
 
         <div className={styles.content}>
-          <h1 className={styles.title}>test</h1>
+          <h1 className={styles.title}>test1</h1>
           <p className={styles.desc}>desc</p>
         </div>
       </Link>
-      <Link href="/testId" className={styles.container}>
+      <Link href="testimonial/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="/architecture2.jpg"
@@ -34,11 +34,11 @@ const Testimonial = () => {
         </div>
 
         <div className={styles.content}>
-          <h1 className={styles.title}>test</h1>
+          <h1 className={styles.title}>test2</h1>
           <p className={styles.desc}>desc</p>
         </div>
       </Link>
-      <Link href="" className={styles.container}>
+      <Link href="testimonial/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="/architecture2.jpg"
@@ -50,7 +50,7 @@ const Testimonial = () => {
         </div>
 
         <div className={styles.content}>
-          <h1 className={styles.title}>Test</h1>
+          <h1 className={styles.title}>Test3</h1>
           <p className={styles.desc}>Desc</p>
         </div>
       </Link>
