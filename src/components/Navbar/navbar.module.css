@@ -9,6 +9,8 @@
   font-weight: bold;
   font-size: 20px;
   padding-top: 5px;
+  color: bisque;
+  text-decoration: none;
 }
 
 .icon {
@@ -23,7 +25,15 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  /* color: bisque; */
+}
+.link {
   color: bisque;
+  text-decoration: none;
+}
+
+.link:is(:hover, :focus) {
+  color: var(--orange-soda);
 }
 
 .logout {

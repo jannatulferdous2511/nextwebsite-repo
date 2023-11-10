@@ -1,0 +1,65 @@
+.container{
+  padding-top: 10px;
+  
+}
+.relative{
+  position: relative;
+}
+
+.image{
+  position: relative;
+  object-fit: cover;
+
+  width: 100%;
+}
+
+.imagePosition{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.absolute{
+  position: absolute;
+}
+
+.arrow1{
+  padding-left: 2px 2px;
+  background: bisque;
+  color:black;
+  display: block;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 20;
+  position: absolute;
+  left: 0px;
+  top:50%;
+  
+}
+
+.arrow1:is(:hover, :focus) {
+  color: var(--orange-soda);
+}
+.arrow2{
+  padding-left: 3px 3px;
+  background-color: rgb(244, 213, 176);
+  color:black;
+  display: block;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 200ms;
+  border-radius: 50%;
+  z-index: 20;
+  position: absolute;
+  right: 0px;
+  top:50%;
+}
+
+  .arrow2:is(:hover, :focus) {
+    color: var(--orange-soda);
+  }
+
