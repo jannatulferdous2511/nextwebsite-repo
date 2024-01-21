@@ -1,24 +1,101 @@
 .container {
-  height: 50px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	height: calc(100vh-50px);
+	font-size: 20px;
+	display: flex;
+	/* align-items: center;
+	justify-content: space-between; */
+}
+.item {
+	flex: 1;
+	display: flex;
+	position: relative;
+}
+.item:last-child {
+	flex: 2;
+	padding: 50px;
+}
+.card {
+	flex: 1;
+	padding: 0 20px;
+	justify-content: space-between;
+}
+.contact {
+	font-size: 20px;
+	color: #f7b25d;
+}
+.sundayText {
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: underline;
+	gap: 5px;
+	padding-right: 30px;
+}
+.saturdayText {
+	margin-top: 5px;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: underline;
+	gap: 5px;
+	padding-right: 30px;
+}
+.friday {
+	margin-top: 5px;
+	font-size: 16px;
+}
+.address {
+	margin-top: 5px;
+	font-size: 16px;
+}
+.directions {
+	text-decoration: underline;
+}
+
+.links {
+	font-size: 20px;
+	color: #f7b25d;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	padding-left: 40px;
+	/* align-items: center; */
+	/* text-align: center; */
+}
+.name {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	font-size: 16px;
+	padding-left: 40px;
+	margin-left: 40px;
+
+	/* text-align: start;
+	align-items: start; */
+}
+.link {
+	color: bisque;
+	text-decoration: none;
+	transition-duration: 700 ease-in-out;
+}
+.link:is(:hover, :focus) {
+	color: var(--orange-soda);
 }
 
 .social {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+	font-size: 20px;
+	color: #f7b25d;
+	margin-bottom: 20px;
+	/* padding-left: 40px; */
+}
+
+.socialImg {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .logo {
-  display: flex;
-  gap: 2px;
-  align-items: center;
-}
-
-.icon {
-  cursor: pointer;
-  padding-top: 0px;
+	display: flex;
+	gap: 2px;
+	align-items: center;
 }

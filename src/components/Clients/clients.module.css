@@ -1,0 +1,8 @@
+.container {
+	height: 100vh;
+}
+.review {
+	font-size: 20px;
+	font-weight: 200;
+	align-items: center;
+}

@@ -1,0 +1,29 @@
+.container {
+	height: 200px;
+	margin-bottom: 30px;
+	/* margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	justify-content: space-around; */
+}
+.headline {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	justify-content: space-around;
+}
+.img {
+	/* font-size: 50px; */
+
+	background-color: black;
+	padding: 20px 20px;
+}

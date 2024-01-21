@@ -1,34 +1,30 @@
-import React from "react";
-import styles from "./slide.module.css";
-import Image from "next/image";
+import Image from 'next/image';
+import React from 'react';
+import styles from './slide.module.css';
 
-import Button from "@/components/Button/Button";
+import Button from '@/components/Button/Button';
 
 interface propsType {
-  img: string;
-  // title: string;
-  // mainTitle: string;
+	img: string;
+	title: string;
 }
 
-const Slide: React.FC<propsType> = ({ img  }) => {
-  return (
-    <div className={styles.slide}>
-       {/* <div className={styles.banner}>
-        <h3 className={styles.title}>{title}</h3>
-        <h2 className={styles.mainTitle}>{mainTitle}</h2>
+const Slide: React.FC<propsType> = ({ img, title }) => {
+	return (
+		<div className={styles.slide}>
+			<div className={styles.banner}>
+				<h2 className={styles.title}> {title}</h2>
+			</div>
 
-        <Button url="/project" text="See Our Project" />
-      </div>  */}
-
-      <Image
-        className={styles.image}
-        src={img}
-        alt="banner"
-        width={550}
-        height={550}
-      />
-    </div>
-  );
+			<Image
+				className={styles.image}
+				src={img}
+				alt="banner"
+				width={2000}
+				height={2000}
+			/>
+		</div>
+	);
 };
 
 export default Slide;

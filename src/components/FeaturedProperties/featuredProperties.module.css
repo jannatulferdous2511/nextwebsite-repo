@@ -1,0 +1,158 @@
+.container {
+	/* height: 100%; */
+	width: 22%;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 40px;
+	cursor: pointer;
+	/* gap: 40px; */
+
+	/* overflow: hidden; */
+	/* margin-bottom: 30px;
+	margin-top: 30px; */
+}
+/* .wrapper {
+	display: flex;
+	 flex-direction: column; 
+	gap: 35px;
+	align-items: center;
+	text-align: center;
+	width: 22%;
+	padding: 20px 40px;
+	justify-content: center;
+	 margin-top: 10px;
+	margin-bottom: 50px; 
+} */
+
+/* .text {
+	font-size: 40px;
+	font-weight: 600;
+	margin: o auto;
+
+	background: linear-gradient(to bottom, rgb(244, 200, 4), hsl(0, 14%, 85%));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	align-items: center;
+	line-height: 1;
+}
+.subtext {
+	font-size: 15px;
+	font-weight: 500;
+	/* margin-top: 2px; */
+/* margin-bottom: 5px;
+	padding: 10px 5px;
+	text-align: center;
+	color: bisque;
+} */
+/* .image {
+	/* margin-left: 10px;
+	margin-right: 10px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	margin-top: 20px;
+
+
+	gap: 20px;
+	border: 4px solid rgb(249, 171, 27);
+	border-radius: 5px;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+	width: 100%;
+	height: 100%;
+ */
+/* background-size: cover !important; */
+/* } */
+.title {
+	font-size: 30px;
+	font-weight: 600;
+	color: bisque;
+	margin-top: 5px;
+	display: flex;
+}
+.subtitle {
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: 300;
+	color: #f7b25d;
+	margin-top: 5px;
+	display: flex;
+}
+.desc {
+	font-size: 20px;
+	font-weight: 200;
+	color: bisque;
+	margin-top: 5px;
+	display: flex;
+	text-align: center;
+}
+.facilities {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	row-gap: 5px;
+	background-color: rgb(105, 106, 106);
+
+	list-style: none;
+}
+/* .bathroom {
+	gap: 2px;
+	 background-color: rgb(105, 106, 106); 
+	font-size: 20px;
+	 padding: 2px 15px; 
+	display: inline; 
+} */
+.bath {
+	font-size: 18px;
+	display: block;
+	margin-top: 5px;
+}
+/* .bedrooms {
+	 margin-left: 5px;
+	margin-right: 10px; 
+
+	gap: 2px;
+	 background-color: rgb(105, 106, 106); 
+	font-size: 20px;
+	 padding: 2px 15px; 
+} */
+.bed {
+	font-size: 18px;
+	display: block;
+	margin-top: 5px;
+}
+/* .building {
+	gap: 2px;
+	 background-color: rgb(105, 106, 106); 
+	font-size: 20px;
+	 padding: 2px 15px; 
+}  */
+.build {
+	font-size: 18px;
+	display: block;
+	margin-top: 5px;
+}
+.item {
+	padding-block: 5px;
+	font-size: 15px;
+}
+.item:not(:last-child) {
+	padding-right: 15px;
+	border-right: 1px solid hsla(0, 0%, 0%, 0.2);
+	margin-right: 20px;
+}
+.item :is(strong) {
+	display: inline-block;
+	margin-right: 3px;
+}
